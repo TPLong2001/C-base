@@ -1,0 +1,26 @@
+Biến:
+	- Là nơi lưu trữ dữ liệu với 1 kiểu dữ liệu xác định, nó có thể thay đổi trong quá trình thực hiện chương trình.
+  - Kiểu dữ liệu là 1 cách phân loại dữ liệu theo kích thước và loại giá trị của dữ liệu đó.
+  - Có 5 kiểu dữ liệu thường được sử dụng là:    
+                                              int ( kiểu số nguyên với kích thước từ 2-4 byte tùy thuộc vào bộ xử lý).
+                                              char (kiểu dữ liệu lưu chữ 1 ký tự hoặc chữ cái trong bảng ASCII với kích thước - 1 byte).
+                                              short (kích thước 2 byte).
+                                              float (kiểu số thập phân với kích thước - 4 byte).
+                                              double (kiểu số thập phân với kích thước - 8 byte).
+  - Ngoài ra trong thư viện stdint.h còn cung cấp cho chúng ta các kiểu dự liệu với số bit cụ thể như uint8_t (1byte unsigned), uint16_t, uint32_t,.....
+  - các kiểu dữ liệu khác như bool (logic), struct, hay enum, ....
+  - Về các loại biến thì có 2 loại biến chính là Biến cục bộ và biến toàn cục, biến cục bộ thì chỉ sử dụng cục bộ trong phạm vi hàm mà nó khai báo, còn biến toàn cục sử dụng trong toàn bộ file.
+  - Ngoài ra biến còn có biến tĩnh static và biến hằng const,....
+
+Hàm:
+  - là 1 nhóm lệnh cùng nhau thực hiện 1 nhiệm vụ.
+  - 1 hàm gồm có các thành phần chính như trong cú pháp tạo hàm
+                  kieu_tra_ve Ten_ham(các tham số truyền vào)
+                  {  
+                    các câu lệnh thực thi trong hàm
+                    câu lệnh trả về nếu hàm có kiểu trả về.
+                  }
+  - kiểu trả về của hàm ngoài các kiểu dữ liệu thường giống với biến thì còn có thêm kiểu dữ liệu void - được sử dụng khi hàm không trả về dữ liệu, hay không có biến trả về.
+  - Mỗi hàm chỉ có thể trả về tối đa 1 phần tử bằng cú pháp lệnh trả về của hàm.
+  - về loại hàm thì kiểu dữ liệu trả về cũng tương tự như biến và cũng có static function. ngoài ra còn có inline function, hoặc macro function.
+                        
