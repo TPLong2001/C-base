@@ -1,2 +1,2 @@
-# C-base
+# C-basic
 basic knowledge for C
